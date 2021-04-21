@@ -988,7 +988,7 @@ test ('empty', () => {
 
   assert.throws (
     () => Z.empty (null),
-    new TypeError ('Z.Monoid.methods.empty(...) is not a function')
+    new TypeError ("Cannot read property 'fantasy-land/empty' of null")
   );
 });
 
